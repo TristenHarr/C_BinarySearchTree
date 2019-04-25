@@ -3,7 +3,7 @@
 int main(void) {
 
     int size;
-    FILE *fp = fopen("C:\\Users\\trist\\CLionProjects\\Lab13\\employee.csv", "r"); // open file
+    FILE *fp = fopen("C_BinrarySearchTree/employee.csv", "r"); // open file
     if (fp){
         fscanf(fp,"%d\n", &size);
     }
